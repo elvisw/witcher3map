@@ -21,12 +21,23 @@
 		"gremist": {
 			"label": "葛密斯塔",
 			"desc": "任务：进阶炼金学 (lv. 24)"
+		},
+		"desc": {
+			"keira": "如果她之前没有死，她就会出现。"
+		},
+		"popuptitle": {
+			"keira": "凯拉·梅兹"
 		}
 	},
 	"armourer": {
 		"amateurLabel": "业余 护甲师傅",
 		"journeymanLabel": "短工 护甲师傅",
-		"desc": "你可以在此打造护甲，修理受损装备，拆分装备零件或从栏位上移除升级"
+		"desc": {
+			"zoltan": "只有在「__quest__」任务期间与卓尔坦对话后才会出现。 "
+		},
+		"popuptitle": {
+			"zoltan": "卓尔坦·齐瓦"
+		}
 	},
 	"banditcamp": {
 		"label": "强盗营地",
@@ -177,14 +188,14 @@
 			"ironMine": "铁矿",
 			"kaerMorhen": "凯尔莫汉",
 			"bastion": "大堡垒",
-			"ruinedwatchtower": "荒废的瞭望塔"
+			"ruinedWatchtower": "被毁的瞭望塔"
 		},
 		"desc": {
-			"ruinedwatchtower": "这座湖岸的瞭望塔曾是狼派猎魔人的荣耀。而如今它已是一片废墟，唯有瓦砾间的风声作伴。",
 			"bastion": "年轻的巫师们曾在此试炼，但现在这座堡垒已被遗忘，沦为废墟。",
 			"lakesideHut": "十几年前，这里曾居住过一位酿制优质蜂蜜酒的隐士。巫师们常常去拜访这位长者，聊起遥远国度上发生的往事。",
 			"ironMine": "在这里，铁矿石被开才出来以用于炼制狼派武器",
-			"kaerMorhen": "玥洱海畔的客栈，狼派巫师们的家"
+			"kaerMorhen": "玥洱海畔的客栈，狼派巫师们的家",
+			"ruinedWatchtower": "这座湖边的瞭望塔曾经是狼学派猎魔人的骄傲，如今已是一片废墟，唯有风在石间呼啸而过。"
 		}
 	}
 }

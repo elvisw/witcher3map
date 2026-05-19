@@ -62,9 +62,16 @@
 		"journeymanLabel": "短工 铸剑匠",
 		"masterLabel": "大师 铸剑匠*",
 		"hattori": "大师 铸剑匠*（哈托利）",
-		"desc": "你可以在此打造武器、修理受损装备、把装备拆成零件或把升级元素从栏位上移除。",
+		"desc": {
+			"rune": "要使用他的附魔服务，你必须先完成支线任务「附魔：品质有保障」。你需要（a）在诺维格瑞北部的山中找到大量翡翠，然后（b）向符文匠捐赠5000克朗，让他能够委托制作基础附魔所需的工具。 ",
+			"general": "你可以在此打造武器、修理受损装备、把装备拆成零件或把升级元素从栏位上移除。"
+		},
 		"availability": "这名铸剑匠可直接使用 ",
-		"quest": "你必须完成「宝剑与饺子」任务（24级）以解锁这名铸剑匠。"
+		"quest": "你必须完成「宝剑与饺子」任务（24级）以解锁这名铸剑匠。",
+		"label": {
+			"hattori": "哈托利",
+			"rune": "符文匠"
+		}
 	},
 	"brothel": {
 		"label": {
@@ -105,7 +112,9 @@
 			"quartermaster": "军需官 昆特牌玩家",
 			"bloodyBaron": "血腥男爵 昆特牌玩家",
 			"yoana": "尤娜（护甲师傅的助手） 昆特牌玩家",
-			"player": "昆特牌玩家"
+			"player": "昆特牌玩家",
+			"olgierd": "欧吉尔德·冯·艾佛瑞克",
+			"shani": "夏妮"
 		}
 	},
 	"innkeep": {
@@ -138,20 +147,64 @@
 		},
 		"rescue": "需要从此解救",
 		"rescuedMerchant": "这名商人在被解救后出现",
-		"wanderingInTheDark": "「伸手不见五指」任务 "
+		"wanderingInTheDark": "「伸手不见五指」任务 ",
+		"mod": "附魔精通要求献祭",
+		"mod2": "Brothers in Arms - TW3 Ultimate Bug Fix Collaboration",
+		"or": "或"
 	},
 	"poi": {
 		"label": {
 			"triss": "特莉丝住所",
 			"dandelionAndZoltan": "丹德里恩和卓尔坦住所",
 			"vilmeriusHospital": "维默医院",
-			"keira": "凯拉·梅兹住所"
+			"keira": "凯拉·梅兹住所",
+			"acorn": "魔法橡实",
+			"brush": "装饰刷",
+			"contract": "合同",
+			"diary": "多洛雷斯·里尔登的日记",
+			"doll": "玩偶",
+			"elementa": "土元素",
+			"edgar": "来自埃德加神父的便条",
+			"hat": "吞火者的帽子",
+			"lantern": "灯笼",
+			"lever": "拉杆",
+			"nilfgaardian": "尼弗迦德头盔和护甲套装",
+			"paper": "散落的纸片",
+			"priest": "被遗忘的牧师的誓言",
+			"portal": "传送门",
+			"portrait": "爱丽丝与欧吉尔德的肖像",
+			"reinald0": "雷纳德的便条",
+			"reinald1": "雷纳德的第一封信",
+			"reinald2": "雷纳德的第二封信",
+			"reinald3": "雷纳德的第三封信",
+			"reinald4": "雷纳德的第四封信",
+			"reinald5": "雷纳德的第五封信",
+			"sketchbook": "爱丽丝的素描本",
+			"spirits": "幽灵"
 		},
 		"desc": {
 			"triss": "待办事项",
 			"dandelionAndZoltan": "待办事项",
 			"vilmeriusHospital": "待办事项",
-			"keira": "待办事项"
+			"keira": "待办事项",
+			"acorn": "可以从伊姆瑞斯的尸体上获取。食用后获得2个技能点，也可以交给村民换取其他奖励。 ",
+			"brush": " ",
+			"contract": "如果在任务期间收集，可以在任务结束时获得更多奖励。 ",
+			"diary": " ",
+			"doll": " ",
+			"elementa": "要完成复活节彩蛋的第二阶段，必须杀死一只高等级土元素。 ",
+			"hat": " ",
+			"lantern": "新的光源。 ",
+			"dlever": "拉动拉杆后，周围环境会短暂变暗。 ",
+			"elever": "需要拉动3个拉杆来完成复活节彩蛋的第一阶段。 ",
+			"nilfgaardian": " ",
+			"notes": "如果在「__quest__」任务期间收集，将在任务结束时触发额外的对话选项。 ",
+			"paper": " ",
+			"portal": "穿过传送门后，会遇到无法杀死的幻象。墙上的文字揭示了其中的奥秘。 ",
+			"portrait": " ",
+			"sketchbook": " ",
+			"spirits": "来自「__quest__」的灵魂。 ",
+			"qobject": "「__quest__」任务物品。 "
 		}
 	},
 	"shopkeeper": {
@@ -165,7 +218,10 @@
 			"loanShark": "高利贷商人",
 			"quartermaster": "军需官",
 			"shopkeeper": "商店老板",
-			"wanderingMerchant": "旅行商人"
+			"wanderingMerchant": "旅行商人",
+			"elihal": "伊莱哈尔",
+			"gildorf": "吉尔多夫",
+			"vivaldi": "维默·维瓦尔第"
 		},
 		"desc": {
 			"aeramasTrinketMerchant": "贩售炼金材料、任务道具（艾拉玛的废弃庄园）及「还原魔药」（1000克朗）",
@@ -196,7 +252,9 @@
 			"runesAndAlchemy": "贩售符石及炼金材料",
 			"uselessMerchant": "贩售不值钱物品",
 			"weaponsAndCraftingSupplies": "贩售武器及工艺材料",
-			"windmillMerchant": "从路希恩的风车旅行到港区大门。贩售符石、炼金术材料及食物"
+			"windmillMerchant": "从路希恩的风车旅行到港区大门。贩售符石、炼金术材料及食物",
+			"drinksmerchant": "出售饮品。 ",
+			"gwent": "出售昆特牌。 "
 		}
 	},
 	"signpost": {
@@ -297,7 +355,22 @@
 			"lurtch": "勒契",
 			"lindenvale": "林登维尔",
 			"maraudersBridge": "掠夺之桥",
-			"grotto": "石窟"
+			"grotto": "石窟",
+			"arns": "阿恩斯克罗内城堡废墟",
+			"bowdon": "鲍登",
+			"brun": "布伦威治",
+			"castle": "城堡村",
+			"crane": "鹤角",
+			"draken": "德拉肯山谷前哨",
+			"erde": "厄尔德",
+			"garin": "加林庄园",
+			"heddel": "赫德尔",
+			"hunter": "猎人之屋",
+			"kilker": "基尔克林废墟",
+			"mill": "上磨坊",
+			"vikk": "维克瞭望塔",
+			"voneverec": "冯·艾佛瑞克庄园",
+			"zuetzer": "祖策城堡"
 		},
 		"desc": {
 			"hierarchSquare": "一直到最近都还有许多法师居住在诺维格瑞的大广场附近。不过，女巫猎人展开恐怖统治之后，法师便一个接着一个逃之夭夭，城里许多美轮美奂的宅邸因此变成空屋，无人照顾。",
@@ -396,7 +469,35 @@
 			"lurtch": "这儿曾经是伊芙家族庄园的所在地，还曾依伊芙领主的妻子命名为莫提兰卡。伊芙夫妇过世后，在遗嘱中将他们的土地留给农奴。心存感激的农民建立了一座终身保有的村庄，并以伊芙家族的管家、首任长老勒契取名。",
 			"lindenvale": "威伦里一座不足为奇的贫穷村落，尼弗迦德人将战争税和传染病带来之后，村民更加贫困。",
 			"maraudersBridge": "威伦之战过后，大批掠夺者涌上这座桥，抢着回收战场上还能卖钱的东西。",
-			"grotto": "一个阴暗又可怕的地方，不时会发出令人不安又低沉的声音......"
+			"grotto": "一个阴暗又可怕的地方，不时会发出令人不安又低沉的声音......",
+			"arns": " ",
+			"bowdon": " ",
+			"brun": " ",
+			"castle": " ",
+			"crane": " ",
+			"draken": " ",
+			"erde": " ",
+			"garin": " ",
+			"heddel": " ",
+			"hunter": " ",
+			"kilker": " ",
+			"mill": " ",
+			"vikk": " ",
+			"voneverec": " ",
+			"zuetzer": " "
+		}
+	},
+	"entrance": {
+		"desc": {
+			"sewers1": "进入一号下水道。 ",
+			"sewers2": "进入二号下水道。 ",
+			"sewers3": "进入三号下水道。 ",
+			"sewers4": "进入四号下水道。 ",
+			"pass": "秘密通道"
+		},
+		"label": {
+			"sewers": "下水道入口",
+			"pass": "通往腐林密道。隧道门的钥匙只能通过完成支线任务「逃出生天」获取。 "
 		}
 	}
 }

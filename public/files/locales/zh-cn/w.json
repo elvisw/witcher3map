@@ -38,13 +38,17 @@
 			"lootableBattlefield": "可供搜刮的战场",
 			"serpentineSteelSword": "毒蛇钢剑",
 			"serpentineSilverSword": "毒蛇银剑",
-			"crystalSkull": "水晶头骨"
+			"crystalSkull": "水晶头骨",
+			"boss": "Secret Boss (Chort)",
+			"diary": "Yellowed Diary"
 		},
 		"desc": {
 			"lootableBattlefield": "在游戏早期可以搜刮此战场以获取资金",
 			"serpentineSteelSword": "毒蛇学派装备蓝图（1/2）",
 			"serpentineSilverSword": "毒蛇学派装备蓝图（2/2），位于教堂地下",
-			"crystalSkull": "根据游戏介绍视频，可以在“最后愿望”任务中解锁与叶奈法的一段对话。只能在离开白果园前触发"
+			"crystalSkull": "根据游戏介绍视频，可以在“最后愿望”任务中解锁与叶奈法的一段对话。只能在离开白果园前触发",
+			"boss": "If you kill 6 cows here 3 times in a row, 27 level Chort will appear and attack you; Attention! When you kill the chort, new ones keep coming. ",
+			"diary": "If received during the '__quest__' quest, additional earnings can be obtained by talking to Tomira after the quest. "
 		}
 	},
 	"shopkeeper": {

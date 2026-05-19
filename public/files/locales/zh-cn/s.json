@@ -108,7 +108,15 @@
 			"mastercraftedWolvenBoots": "师匠 狼之靴子",
 			"superiorWolvenSteelSword": "高等 狼之钢剑",
 			"superiorWolvenSilverSword": "高等 狼之银剑",
-			"superiorWolvenArmor": "高等 狼之甲胄"
+			"superiorWolvenArmor": "高等 狼之甲胄",
+			"birna": "Birna Bran",
+			"dowry": "Timon's Dowry",
+			"gship": "Ghost Ship",
+			"horn": "Hornwall Horn",
+			"nail": "Nail",
+			"octo": "Octo",
+			"poem": "Riddle Poem",
+			"twine": "Twine"
 		},
 		"popupTitle": {
 			"ursineSteelSword": "熊之钢剑图纸",
@@ -132,7 +140,15 @@
 			"mastercraftedWolvenBoots": "师匠 狼之靴子图纸",
 			"superiorWolvenSteelSword": "高等 狼之钢剑图纸",
 			"superiorWolvenSilverSword": "高等 狼之银剑图纸",
-			"superiorWolvenArmor": "高等 狼之甲胄图纸"
+			"superiorWolvenArmor": "高等 狼之甲胄图纸",
+			"birna": "Birna Bran",
+			"dowry": "Timon's Dowry",
+			"gship": "Ghost Ship",
+			"horn": "Hornwall Horn",
+			"nail": "Nail",
+			"octo": "Octo",
+			"poem": "Riddle Poem",
+			"twine": "Twine"
 		},
 		"desc": {
 			"juttaAnDimun": "待办事项",
@@ -154,7 +170,15 @@
 			"mastercraftedFelineSilverSword": "进入怪物巢穴，向右前进并击碎墙壁。图纸就在面前的宝箱中。",
 			"mastercraftedWolvenTrousers": "你必须爬上旧瞭望塔的围墙。",
 			"superiorWolvenSteelSword": "深入地下墓穴，进入一个充满毒气的房间。",
-			"superiorWolvenArmor": "你需要前往堡垒的二楼。"
+			"superiorWolvenArmor": "你需要前往堡垒的二楼。",
+			"birna": "It find out if you sided with Cerys an Craite during the secondary quest '__quest__'. ",
+			"dowry": "'__quest__' quest item. ",
+			"gship": "It usually appears just after 1 AM game time for a brief moment. ",
+			"horn": "A horn used to make sirens fall from the sky. ",
+			"nail": "Extra experience points can be gained if delivered to person '__octo__' during the '__quest__' mission. ",
+			"octo": "Can be spoken to during the '__quest__' quest for extra experience points and information. He can also be spoken to again after the '__quest__' quest.",
+			"poem": "A corpse with a poem containing a riddle. ",
+			"twine": "Extra experience points can be gained if delivered to person '__octo__' during the '__quest__' mission. "
 		}
 	},
 	"pop": {
@@ -295,6 +319,16 @@
 			"yustiannasGrotto": "尤斯提雅那是史凯利杰奎特家族的海盗，在一次出海洗劫时被俘虏。当时大路上从欧飞尔到赞古巴的人都相当害怕她。她的航海技术闻名天下，还是善于使用各种武器的高手，因此她成了无尽之海上人人畏惧的角色。据说她回到史凯利杰后，用这个洞穴来藏她的赃物。",
 			"giantsToes": "岛民相信衔尾蛇将反对衪的巨人变成石头以示惩罚，但其实这只是几世纪以来有风与水形塑而成的岩层。",
 			"ancientCrypt": "虽然史凯利杰人以几近疯狂的勇敢而闻名，还是有些地方他们不敢靠近。这里就是其中之一。"
+		}
+	},
+	"treasure": {
+		"desc": {
+			"solution": "Treasure noted by Riddle Poem. ",
+			"toodeep": "Since it is very deep, it can only be reached with the help of mods. "
+		},
+		"label": {
+			"solution": " ",
+			"toodeep": ""
 		}
 	}
 }

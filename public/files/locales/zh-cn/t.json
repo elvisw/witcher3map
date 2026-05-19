@@ -8,7 +8,8 @@
 	"armourer": {
 		"amateurLabel": "业余 护甲师傅",
 		"journeymanLabel": "短工 护甲师傅",
-		"desc": "你可以在此打造护甲，修理受损装备，拆分装备零件或从栏位上移除升级"
+		"desc": "你可以在此打造护甲，修理受损装备，拆分装备零件或从栏位上移除升级",
+		"lafargue": "Lafargue"
 	},
 	"hansebase": {
 		"label": "行会基地",
@@ -25,7 +26,9 @@
 			"salamander": "银色蝾螈旅店",
 			"pheasantry": "雉园",
 			"houseofpleasure": "鲍克兰佳丽 - 贝尔之家",
-			"barrelandbung": "酒桶旅店"
+			"barrelandbung": "酒桶旅店",
+			"clever": "The Clever Clogs Tavern",
+			"winery": "The Adder And Jewels Winery"
 		},
 		"popup": "旅馆主人",
 		"desc": {
@@ -66,7 +69,14 @@
 			"silverarmortrousers": "护甲、裤子及银剑",
 			"steelsilvergauntlets": "刚剑、银剑及手套",
 			"trousersandboots": "裤子及靴子",
-			"all": "刚剑、银剑、手套、护甲及靴子"
+			"all": "刚剑、银剑、手套、护甲及靴子",
+			"cake": "Cake",
+			"ducal": "The Ducal Camerlengo",
+			"haremask": "Hare Mask",
+			"hengaidth": "Hen Gaidth Set",
+			"photo": "CDPR Photo",
+			"reginald": "Sir Reginald d'Aubry's Manhood",
+			"tesham": "Tesham Mutna Set"
 		},
 		"popupTitle": {
 			"witchergear": "师匠级狩魔猎人装备"
@@ -82,7 +92,14 @@
 			"all": "传送门的钥匙就在石窟外。里面有所有的狼派图纸，三张分布在洞穴的两个地方。",
 			"armor": "图纸在房子里，在墙上的画框后面。",
 			"silverarmortrousers": "在幻象后面。在隔壁房间找到水晶后安装在门上，用阿尔德之印启动传送门。传送门内有三张图纸。",
-			"manticoresilver": "石窟深处"
+			"manticoresilver": "石窟深处",
+			"cake": "It can be found by entering the different colored portal in the third portal room during the '__quest__' quest. ",
+			"ducal": " ",
+			"haremask": " ",
+			"hengaidth": "It is scattered in 3 different locations in the dungeon. If you choose to search for Syanna, you can only access one of these locations. ",
+			"photo": "It is in this direction but off the map. For detailed description: __link1__ click here __link2__. ",
+			"reginald": "It's become active if Sir Reginald d'Aubry's Manhood has been restored in the '__quest__' quest. Each touching activates a buff for 60 minutes, called 'Reginald's Power', that giving the player unlimited run ability while out of combat. ",
+			"tesham": "It is scattered in 3 different locations in the dungeon. "
 		}
 	},
 	"sidequests": {
@@ -259,7 +276,37 @@
 			"beauclairport": "要喝最好的葡萄酒，就要喝陶森特酒，任何品酒师都会这样说。陶森特著名品牌的美酒不但要价不菲，甚至还会出现在国王的餐桌上。的确，现代的皇家晚宴一定少不了几瓶布列薛之岸或东之东的葡萄酒。而这些酒就是从鲍克兰的港口出发，往南运至尼弗迦德帝国的中心，或是往北运往更遥远的地方。",
 			"tradingpost": "任何稍微有点概念的商人，都一定会来陶森特的首都做点生意，可能是到圣赛巴斯钦听听著名的鲍克兰佳丽讲最新小道消息，或是在港区散散步，看看有没有码头工人「不小心」遗失了一两桶葡萄酒。不过真正重要的生意不是在城里做的，而是在这处小型商人营地，远离鲍克兰永不止歇的美酒高歌与节庆气氛。",
 			"coronatavineyard": "本家族创始人史戴芬·科罗纳塔有一次找德鲁伊帮忙，想除掉以葡萄藤为食的毛毛虫。德鲁伊建议他养貂，因为貂喜欢吃毛毛虫。史戴芬接受了德鲁伊的建议，很快的不止他自己庄园的毛毛虫消失了，邻近葡萄园的毛毛虫也被吃得一干二净。史戴芬这项义举让他受封爵位。他选择以蓝色的狼作为家徽，因为他觉得如果盾牌上的纹饰是只貂，看起来太愚蠢了。",
-			"ruins": "陶森特曾经是精灵的国度。公爵宫殿是精灵时代最著名的遗迹，但其实还有很多。艾恩西迪遗留下许多大大小小的建筑，现代人只能大略推测其功能。特默斯宫殿遗迹就是一个例子。有人说这是末代精灵王传说中的目的，其他人则猜测是某位被遗忘神祗的宫庙。事情的真相则永远不得而知。"
+			"ruins": "陶森特曾经是精灵的国度。公爵宫殿是精灵时代最著名的遗迹，但其实还有很多。艾恩西迪遗留下许多大大小小的建筑，现代人只能大略推测其功能。特默斯宫殿遗迹就是一个例子。有人说这是末代精灵王传说中的目的，其他人则猜测是某位被遗忘神祗的宫庙。事情的真相则永远不得而知。",
+			"fortussar": "Fort Ussar Ruins is a ruined fortification in the east part of Toussaint, east-southeast of Ardaiso Quarry. It is initially inhabitated by slyzards, including their mother. Inside a cave beneath the ruins, one can also find an Igni-place of power. "
+		}
+	},
+	"banditcamp": {
+		"desc": {
+			"hanse": "It will only spawn if '__location__' '__hanse__' has not been cleared. ",
+			"ussar": "It will only spawn if the eggs were not destroyed during the '__quest__' mission. "
+		}
+	},
+	"brothel": {
+		"popup": {
+			"Belle": "The Belles of Beauclair"
+		}
+	},
+	"guarded": {
+		"desc": {
+			"hanse": "It will only spawn if '__location__' '__hanse__' has been cleared. "
+		}
+	},
+	"shopkeeper": {
+		"desc": {
+			"butcher": "Sells food. ",
+			"craftingSuppliesAndDrink": "Sells crafting supplies and drink. ",
+			"dye": "Sells armor dye and dye remover. ",
+			"paintingscraftingSupplies": "Sells paintings and crafting supplies. "
+		},
+		"label": {
+			"butcher": "Butcher",
+			"dye": "Dye Merchant",
+			"vintner": "Vintner"
 		}
 	}
 }

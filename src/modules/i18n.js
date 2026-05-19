@@ -10,10 +10,32 @@ jQuery.cachedScript = function (url, options) {
   return jQuery.ajax(options);
 };
 
+// 修复 i18next 将语言代码规范化为大写区域码（如 zh-cn → zh-CN）导致
+// 在区分大小写的文件系统上无法加载 locale 文件的问题
+$.ajaxPrefilter(function (options) {
+  if (options.url && options.url.indexOf('/files/locales/') !== -1) {
+    var parts = options.url.split('?');
+    parts[0] = parts[0].toLowerCase();
+    options.url = parts.join('?');
+  }
+});
+
 // i18n 选项（原 lang-global.js）
+// 迁移旧 zh locale 到 zh-tw
+if (localStorage.lang === 'zh') {
+  localStorage.lang = 'zh-tw';
+}
+
 if (localStorage.lang == null) {
   var lang = window.navigator.userLanguage || window.navigator.language;
-  lang = lang.substring(0, 2);
+  var lowerLang = lang.toLowerCase().replace('_', '-');
+  if (lowerLang === 'zh-cn' || lowerLang === 'zh-sg' || lowerLang === 'zh-hans') {
+    lang = 'zh-cn';
+  } else if (lowerLang.startsWith('zh')) {
+    lang = 'zh-tw';
+  } else {
+    lang = lang.substring(0, 2);
+  }
   localStorage.lang = lang;
 }
 
@@ -25,8 +47,7 @@ window.i18noptions = {
   fallbackLng: "en",
   resGetPath: "/files/locales/__lng__/__ns__.json",
   useDataAttrOptions: true,
-  load: "current",
-  lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh", "zh-cn"]
+  lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh-tw", "zh-cn", "zh-TW", "zh-CN"]
 };
 
 var languageOptions = [
@@ -35,7 +56,7 @@ var languageOptions = [
   { text: "Polski", value: "pl", selected: "pl" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/pl.png" },
   { text: "Русский", value: "ru", selected: "ru" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/ru.png" },
   { text: "Türkçe", value: "tr", selected: "tr" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/tr.png" },
-  { text: "繁體中文", value: "zh", selected: "zh" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/zh.png" },
+  { text: "繁體中文", value: "zh-tw", selected: "zh-tw" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/zh.png" },
   { text: "简体中文", value: "zh-cn", selected: "zh-cn" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/cn.png" },
 ];
 
