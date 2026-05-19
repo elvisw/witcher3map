@@ -35,10 +35,19 @@ $(function () {
     // 2. Set map path, load map data, build markers
     // =========================================================================
     setMapPath(mapdataName);
-    await loadMapData(mapdataName);
+    var mapModule = await loadMapData(mapdataName);
 
-    // processData reads window["mapdata_" + name] set by the mapdata module
-    processData(window['mapdata_' + mapdataName.replace(/-/g, '_')]);
+    // Set window globals expected by map initialization code
+    window.map_path      = mapModule.map_path;
+    window.map_sWest     = mapModule.map_sWest;
+    window.map_nEast     = mapModule.map_nEast;
+    window.map_center    = mapModule.map_center;
+    window.map_minZoom   = mapModule.map_minZoom;
+    window.map_mZoom     = mapModule.map_mZoom;
+    window.map_Zoom      = mapModule.map_Zoom;
+
+    // Process map data into Leaflet markers
+    processData(mapModule.default);
 
     // =========================================================================
     // 3. Build allLayers array
