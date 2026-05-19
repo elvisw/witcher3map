@@ -1,0 +1,66 @@
+{
+	"gwent": {
+		"popup": {
+			"girl": "小火石女孩 - 昆特玩家"
+		}
+	},
+	"poi": {
+		"desc": {
+			"balbina": " ",
+			"blaviken": " ",
+			"camp": " ",
+			"den": " ",
+			"dragon": " ",
+			"emperor": " ",
+			"grigg": " ",
+			"hood": " ",
+			"joss": " ",
+			"pepper": " ",
+			"pigs": " ",
+			"slippers": " ",
+			"start": " ",
+			"thumb": " ",
+			"tower": " ",
+			"wisp": " ",
+			"witch": " "
+		},
+		"label": {
+			"balbina": "巴尔比娜的小屋",
+			"blaviken": "布拉维肯的音乐家",
+			"camp": "红胡子营地",
+			"den": "三只熊窝",
+			"dragon": "死亡维吉玛龙",
+			"emperor": "尼弗迦德皇帝",
+			"grigg": "格里格村",
+			"hood": "小红帽外婆家",
+			"joss": "乔斯",
+			"pepper": "红辣椒 - 桥下",
+			"pigs": "三只小猪之家",
+			"slippers": "宝石红拖鞋",
+			"start": "起点",
+			"thumb": "拇指姑娘镇",
+			"tower": "长锁塔",
+			"wisp": "鬼火",
+			"witch": "邪恶女巫的小屋"
+		}
+	},
+	"shopkeeper": {
+		"desc": {
+			"girl": "这些垃圾物品大多只存在于千言万语之地，因此在杰洛特离开幻境时就会消失，所以最好在离开该地区之前将它们卖给小火石女孩。你也可以拿走对主线任务很重要的丝带。"
+		},
+		"popup": {
+			"girl": "小火石女孩"
+		}
+	},
+	"sidequests": {
+		"desc": {
+			"duck": " "
+		}
+	},
+	"treasure": {
+		"popup": {
+			"knight": "死亡骑士",
+			"pot": "金罐"
+		}
+	}
+}
