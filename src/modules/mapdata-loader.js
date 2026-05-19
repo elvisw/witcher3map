@@ -6,6 +6,6 @@ const $ = window.$;
  * @returns {Promise<object>} mapdata 模块
  */
 export async function loadMapData(region) {
-  const module = await import(`/files/scripts/mapdata-${region}.js`);
+  const module = await import(`../data/mapdata-${region}.js`);
   return module;
 }

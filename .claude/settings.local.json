@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\elvis\\\\Documents\\\\dev\\\\web\\\\witcher3map\" -Depth 0)",
+      "Bash(Select-Object Name, Length)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(New-Item *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(git *)",
+      "Bash(node *)",
+      "PowerShell(git *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Move-Item *)",
+      "Bash(Select-String -Pattern \"^icons\\\\.\" src/modules/icons.js)",
+      "Bash(Measure-Object -Line)",
+      "PowerShell(Select-String *)",
+      "Bash(npx vite *)",
+      "PowerShell(cd \"C:\\\\Users\\\\elvis\\\\Documents\\\\dev\\\\web\\\\witcher3map\"; Start-Process -NoNewWindow -FilePath \"npx\" -ArgumentList \"vite preview --host 0.0.0.0 --port 4173\"; Start-Sleep 3; try { $response = Invoke-WebRequest -Uri \"http://localhost:4173/\" -UseBasicParsing -TimeoutSec 5; $response.StatusCode } catch { Write-Output \"Server not responding yet: $_\" })",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4173/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/w.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/v.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/assets/map-CLW1HQtZ.js)"
+    ]
+  }
+}
