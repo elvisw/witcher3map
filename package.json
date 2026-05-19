@@ -1,0 +1,33 @@
+{
+  "name": "witcher3map",
+  "version": "1.0.0",
+  "description": "Desctiption\r --------------------------------------\r It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).\r I have released version 3.5 as an intermediate version upon popular demand. I'll post updates as development progresses.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvisw/witcher3map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elvisw/witcher3map/issues"
+  },
+  "homepage": "https://github.com/elvisw/witcher3map#readme",
+  "devDependencies": {
+    "vite": "^8.0.13"
+  },
+  "dependencies": {
+    "fuse.js": "^7.3.0",
+    "leaflet": "^1.9.4"
+  }
+}
