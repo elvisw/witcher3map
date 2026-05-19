@@ -13,7 +13,11 @@ jQuery.cachedScript = function (url, options) {
 // i18n 选项（原 lang-global.js）
 if (localStorage.lang == null) {
   var lang = window.navigator.userLanguage || window.navigator.language;
-  lang = lang.substring(0, 2);
+  if (lang.toLowerCase().startsWith('zh')) {
+    lang = lang.toLowerCase().replace('_', '-');
+  } else {
+    lang = lang.substring(0, 2);
+  }
   localStorage.lang = lang;
 }
 
@@ -25,7 +29,7 @@ window.i18noptions = {
   fallbackLng: "en",
   resGetPath: "/files/locales/__lng__/__ns__.json",
   useDataAttrOptions: true,
-  lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh"]
+  lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh-tw", "zh-cn"]
 };
 
 var languageOptions = [
@@ -34,7 +38,8 @@ var languageOptions = [
   { text: "Polski", value: "pl", selected: "pl" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/pl.png" },
   { text: "Русский", value: "ru", selected: "ru" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/ru.png" },
   { text: "Türkçe", value: "tr", selected: "tr" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/tr.png" },
-  { text: "中國傳統的", value: "zh", selected: "zh" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/zh.png" },
+  { text: "繁體中文", value: "zh-tw", selected: "zh-tw" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/zh.png" },
+  { text: "简体中文", value: "zh-cn", selected: "zh-cn" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/cn.png" },
 ];
 
 window.changeLang = function (lang) {
