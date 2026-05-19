@@ -15,10 +15,14 @@ if (localStorage.lang == null) {
   var lang = window.navigator.userLanguage || window.navigator.language;
   if (lang.toLowerCase().startsWith('zh')) {
     lang = lang.toLowerCase().replace('_', '-');
+    if (lang === 'zh-hk' || lang === 'zh-mo') lang = 'zh-tw';
+    if (lang === 'zh-sg') lang = 'zh-cn';
   } else {
     lang = lang.substring(0, 2);
   }
   localStorage.lang = lang;
+} else if (localStorage.lang === 'zh') {
+  localStorage.lang = 'zh-tw';
 }
 
 window.i18noptions = {
