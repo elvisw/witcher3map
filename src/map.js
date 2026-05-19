@@ -123,7 +123,7 @@ $(function () {
     };
 
     // Some maps use L.CRS.Simple (pixel coordinates)
-    if (mapdataName === 'velen' || mapdataName === 'hos_velen' || mapdataName === 'gaunter' ||
+    if (mapdataName === 'hos_velen' || mapdataName === 'gaunter' ||
         mapdataName === 'toussaint' || mapdataName === 'kaer_morhen') {
       mapOptions.crs = L.CRS.Simple;
     }

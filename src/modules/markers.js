@@ -99,12 +99,14 @@ export function processData(data) {
     items.forEach(function (item) {
       if (item.popupTitle == null) item.popupTitle = item.label;
       item.coords.forEach(function (coord) {
-        var ugIcon = "icons." + dataKey + "_ug";
+        var undergroundIcon = icons[dataKey + "_ug"];
         if (item.label.includes($.t("misc.underground"))) {
           if (item.label.includes($.t("treasure.watertreasure"))) {
             groupItems.push(createMarker(coord, icons.treasure_uw_ug, item.label, "<h1>" + item.popupTitle + "</h1>" + item.popup, dataKey));
+          } else if (undergroundIcon) {
+            groupItems.push(createMarker(coord, undergroundIcon, item.label, "<h1>" + item.popupTitle + "</h1>" + item.popup, dataKey));
           } else {
-            groupItems.push(createMarker(coord, eval(ugIcon), item.label, "<h1>" + item.popupTitle + "</h1>" + item.popup, dataKey));
+            groupItems.push(createMarker(coord, icons[dataKey], item.label, "<h1>" + item.popupTitle + "</h1>" + item.popup, dataKey));
           }
         } else if (item.label.includes($.t("treasure.watertreasure"))) {
           groupItems.push(createMarker(coord, icons.treasure_uw, item.label, "<h1>" + item.popupTitle + "</h1>" + item.popup, dataKey));
