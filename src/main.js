@@ -1,4 +1,4 @@
-import { initI18n, initLangSwitcher, regionToMapdata } from './modules/i18n.js';
+import { initI18n, regionToMapdata } from './modules/i18n.js';
 import Fuse from 'fuse.js';
 
 const $ = window.$;
@@ -11,7 +11,6 @@ window.markers = {};
 
 // 初始化 i18n
 initI18n().then(function () {
-  initLangSwitcher();
   loadAllMapData();
 });
 

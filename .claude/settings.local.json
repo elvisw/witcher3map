@@ -22,7 +22,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4173/)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/w.html)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/v.html)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/assets/map-CLW1HQtZ.js)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4174/assets/map-CLW1HQtZ.js)",
+      "Bash(awk '{print $1}')"
     ]
   }
 }
