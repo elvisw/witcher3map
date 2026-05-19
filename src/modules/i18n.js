@@ -13,16 +13,7 @@ jQuery.cachedScript = function (url, options) {
 // i18n 选项（原 lang-global.js）
 if (localStorage.lang == null) {
   var lang = window.navigator.userLanguage || window.navigator.language;
-  if (lang.toLowerCase().startsWith('zh')) {
-    var lower = lang.toLowerCase().replace('_', '-');
-    if (lower === 'zh-cn' || lower === 'zh-sg' || lower === 'zh-hans') {
-      lang = 'zh-cn';
-    } else {
-      lang = 'zh';
-    }
-  } else {
-    lang = lang.substring(0, 2);
-  }
+  lang = lang.substring(0, 2);
   localStorage.lang = lang;
 }
 
