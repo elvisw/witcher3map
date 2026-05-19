@@ -303,6 +303,7 @@ $(function () {
     // 18. Popup open handling
     // =========================================================================
     map.on('popupopen', function (e) {
+      hideCenterCircle();
       showCenterCircle(e.popup._latlng.lat, e.popup._latlng.lng);
       $('#info-wrap').stop();
       $('#info').html(e.popup._source._popup._content);
