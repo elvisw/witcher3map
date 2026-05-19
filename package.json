@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/elvisw/witcher3map#readme",
   "devDependencies": {
-    "vite": "^8.0.13"
+    "@cloudflare/vite-plugin": "^1.37.2",
+    "vite": "^8.0.13",
+    "wrangler": "^4.93.0"
   },
   "dependencies": {
     "fuse.js": "^7.3.0",
