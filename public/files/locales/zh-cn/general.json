@@ -1,524 +1,7 @@
 {
-	"maps": {
-		"velen": "威伦 & 诺维格瑞",
-		"skellige": "史凯利杰群岛",
-		"white_orchard": "白果园",
-		"kaer_morhen": "凯尔莫罕",
-		"toussaint": "陶森特"
-	},
-	"home": {
-		"tagline": "巫师 3 非官方交互式地图 <br>（目前正在开发）",
-		"resultsFound": "搜索结果",
-		"searchPlaceholder": "请输入要搜索的条目…"
-	},
-	"notes": {
-		"label": "标签：",
-		"title": "标题：",
-		"note": "备注：",
-		"enterLabel": "输入地图标签...",
-		"enterTitle": "输入备注标题...",
-		"enterText": "输入备注文本...",
-		"saveNote": "保存备注",
-		"deleteNote": "删除备注"
-	},
-	"sidebar": {
-		"returnToMapSelection": "返回地图选择页",
-		"alchemy": "炼金术士",
-		"abandoned": "废弃地点",
-		"armourer": "护甲师",
-		"armourerstable": "护甲加工桌",
-		"banditcamp": "强盗营地",
-		"barber": "理发师",
-		"blacksmith": "铁匠",
-		"brothel": "妓院",
-		"loveInterest": "情人",
-		"entrance": "入口",
-		"grindstone": "磨刀石",
-		"guarded": "怪物看守的宝藏",
-		"gwent": "昆特牌玩家",
-		"harbor": "港口",
-		"hansebase": "行会基地",
-		"herbalist": "草药商",
-		"hidden": "隐藏的宝藏",
-		"innkeep": "酒馆",
-		"kid": "在窘境中的骑士",
-		"monsternest": "怪物巢穴",
-		"monsterden": "怪物巢穴",
-		"notice": "告示板",
-		"pid": "有困扰的人",
-		"pop": "魔力之所",
-		"poi": "特殊地点",
-		"signalfire": "烽火",
-		"signpost": "路标",
-		"shopkeeper": "商店老板",
-		"smugglers": "走私品",
-		"spoils": "战利品",
-		"vintnercontract": "葡萄酒商任务",
-		"vineyardinfestation": "葡萄园虫害"
-	},
-	"controls": {
-		"show": "显示全部",
-		"hide": "隐藏全部",
-		"showCounts": "显示计数",
-		"hideCounts": "隐藏计数",
-		"resetInvisible": "重置隐藏",
-		"resetInvisConfirm": "这将重置所有隐藏/跟踪标记为其默认状态 (可见)，您确认吗?",
-		"hideMonsters": "隐藏怪物",
-		"showMonsters": "显示怪物",
-		"helpFeatures": "功能与帮助",
-		"credits": "开发人员",
-		"backupSave": "这将下载所有巫师3地图设置的备份副本。 该文件将被保存为: __fileName__ 您确定吗?",
-		"backupLoad": "恢复您的设置:",
-		"backupLoadSuccess": "数据恢复完成！",
-		"backupLoadFail": "恢复失败，请仔细检查您的文件",
-		"backupHtmlFail": "很抱歉。 恢复无法完成。 此浏览器不支持 HTML5 文件 API。",
-		"zoomInButton": "放大",
-		"zoomOutButton": "缩小",
-		"searchButton": "搜索...",
-		"backupDataButton": "备份数据",
-		"restoreDataButton": "恢复数据",
-		"centerMarkerButton": "使高亮标记居中",
-		"addNoteButton": "添加备注",
-		"cancelNoteButton": "取消备注",
-		"viewFullscreenButton": "全屏视图",
-		"exitFullscreenButton": "退出全屏"
-	},
-	"credits": {
-		"botCreated": "由 __untamed0__创作，并获__license__ 许可",
-		"botHelp": "来自 __mcarver__ 与其他 __contributors__ 的帮助。感谢 __designGears__ & __hhrhhr__ 地图 & 资产提取。Javascript 库使用，__jsCredits__ 的完整列表。",
-		"botAssets": "巫师 3、 logo、 图标、 地图&amp; 和文本均为 __cdpr__ 所有"
-	},
-	"misc": {
-		"contribute": "正在施工中! 欢迎提供帮助: __link__",
-		"discuss": "有反馈和建议? 请在此处探讨 __link__",
-		"helpTranslate": "想要帮助或改善翻译吗?",
-		"portraitWarn": "提示：推荐以横屏模式查看地图，点击关闭此消息",
-		"loveInterestDesc": "在这遇见情人",
-		"nsfwConfirm": "这将使“妓院”更改为“爱恋对象”，您确定吗？",
-		"nsfwUndo": "您确定想要返回吗？"
-	},
 	"abandoned": {
-		"label": "废弃地点",
-		"desc": "由于怪物或强盗攻击被抛弃的地方。一旦危险消除，它将再次充满生机"
-	},
-	"armourerstable": {
-		"label": "护甲加工桌",
-		"desc": "护甲加工桌可以在有限的时间内增加你装备的护甲值"
-	},
-	"banditcamp": {
-		"label": "强盗营地",
-		"desc": "一群危险的强盗在这里扎营。 "
-	},
-	"barber": {
-		"label": "理发师",
-		"desc": "你可以在这刮胡子或改变发型。 "
-	},
-	"boat": {
-		"label": "船",
-		"desc": "你可以使用小船在水中移动"
-	},
-	"entrance": {
-		"label": "入口",
-		"desc": "洞穴或遗迹的入口"
-	},
-	"entranceunderwatercave": {
-		"label": "水下洞穴",
-		"desc": "水下洞穴的入口"
-	},
-	"grindstone": {
-		"label": "研磨石",
-		"desc": "在这里研磨过的剑会造成更多伤害"
-	},
-	"guarded": {
-		"label": "怪物看守的宝藏",
-		"desc": "有个强大的怪物__monster__在此处看守宝藏"
-	},
-	"harbor": {
-		"label": "港口",
-		"desc": "你可以在此找到船，船也会在此刷新"
-	},
-	"herbalist": {
-		"label": "草药商",
-		"desc": "在这里你可以买到炼金材料"
-	},
-	"hidden": {
-		"label": "隐藏的宝藏",
-		"desc": "被藏起来的宝藏",
-		"guarded": "被藏起来的宝藏 ( 被__monster__守护)"
-	},
-	"monsterden": {
-		"label": "怪物巢穴",
-		"desc": "怪物出没的地点。__monster__附近人家的心头大患"
-	},
-	"monsternest": {
-		"label": "怪物巢",
-		"desc": "可以用蜂窝或舞动之心摧毁怪物巢穴(__monster__)"
-	},
-	"notice": {
-		"label": "公告板",
-		"desc": "这里张贴了怪物委托和与当地居民相关的公告"
-	},
-	"pid": {
-		"label": "有困扰的人",
-		"desc": "这里有一位或一群人需要帮助（__monster__）"
-	},
-	"poi": {
-		"label": {
-			"witcherGear": "巫师升级装备"
-		},
-		"desc": {
-			"witcherGear": {
-				"silversword": {
-					"feline": {
-						"standard": "在埃泰叶尔里的一堵可被破坏的墙后",
-						"enhanced": "建筑的上层-由奥森弗特门侧的梯子进入",
-						"superior": "可打碎的石笋后，位于洞穴右侧的石架子上",
-						"mastercrafted": ""
-					},
-					"griffin": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"ursine": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"wolven": {
-						"standard": "",
-						"enhanced": "进入洞穴中",
-						"superior": "",
-						"mastercrafted": "你会在秘密宝藏的附近找到"
-					}
-				},
-				"steelsword": {
-					"feline": {
-						"standard": "Drahim堡里，下楼梯",
-						"enhanced": "在洞穴内左侧一堵小石墙的后面",
-						"superior": "在洞穴末端，木质平台上的一个箱子里。",
-						"mastercrafted": ""
-					},
-					"griffin": {
-						"standard": "在怪兽巢穴的附近",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"ursine": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": "在未标记的洞穴中一根石柱的后面。"
-					},
-					"wolven": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": "你会在沉船的货舱中找到"
-					}
-				},
-				"crossbow": {
-					"feline": "",
-					"ursine": ""
-				},
-				"armor": {
-					"feline": {
-						"standard": "",
-						"enhanced": "在艾拉玛的废弃庄园的顶部",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"griffin": {
-						"standard": "在屠龙洞窟里",
-						"enhanced": "在白鹰堡的巨魔的附近",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"ursine": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"wolven": {
-						"standard": "",
-						"enhanced": "潜入水中",
-						"superior": "",
-						"mastercrafted": "箱子在井里"
-					}
-				},
-				"boots": {
-					"feline": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"griffin": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"ursine": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"wolven": {
-						"standard": "",
-						"enhanced": "进入洞穴中",
-						"superior": "",
-						"mastercrafted": ""
-					}
-				},
-				"gauntlets": {
-					"feline": {
-						"standard": "",
-						"enhanced": "在怪老头的采石场的一条矿井中",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"griffin": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"ursine": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"wolven": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					}
-				},
-				"trousers": {
-					"feline": {
-						"standard": "",
-						"enhanced": "在烧焦的废墟里面",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"griffin": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"ursine": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					},
-					"wolven": {
-						"standard": "",
-						"enhanced": "",
-						"superior": "",
-						"mastercrafted": ""
-					}
-				}
-			}
-		},
-		"popup": {
-			"witcherGear": {
-				"silversword": {
-					"feline": {
-						"standard": "猫之银剑",
-						"enhanced": "强化 猫之银剑",
-						"superior": "高等 猫之银剑",
-						"mastercrafted": "师匠 猫之银剑"
-					},
-					"griffin": {
-						"standard": "狮鹫银剑",
-						"enhanced": "强化狮鹫银剑",
-						"superior": "高等 狮鹫银剑",
-						"mastercrafted": "师匠 狮鹫银剑"
-					},
-					"ursine": {
-						"standard": "熊之银剑",
-						"enhanced": "强化 熊之银剑",
-						"superior": "高等 熊之银剑",
-						"mastercrafted": "师匠 熊之银剑"
-					},
-					"wolven": {
-						"standard": "狼之银剑",
-						"enhanced": "强化 狼之银剑",
-						"superior": "高等 狼之银剑",
-						"mastercrafted": "师匠 狼之银剑"
-					}
-				},
-				"steelsword": {
-					"feline": {
-						"standard": "猫之钢剑",
-						"enhanced": "强化 猫之钢剑",
-						"superior": "高等 猫之钢剑",
-						"mastercrafted": "师匠 猫之钢剑"
-					},
-					"griffin": {
-						"standard": "狮鹫兽钢剑",
-						"enhanced": "强化 狮鹫兽钢剑",
-						"superior": "高等 狮鹫兽钢剑",
-						"mastercrafted": "师匠 狮鹫兽钢剑"
-					},
-					"ursine": {
-						"standard": "熊之钢剑",
-						"enhanced": "强化 熊之钢剑",
-						"superior": "高等 熊之钢剑",
-						"mastercrafted": "师匠 熊之钢剑"
-					},
-					"wolven": {
-						"standard": "狼之钢剑",
-						"enhanced": "强化 狼之钢剑",
-						"superior": "高等 狼之钢剑",
-						"mastercrafted": "师匠 狼之钢剑"
-					}
-				},
-				"crossbow": {
-					"feline": "猫之十字弓",
-					"ursine": "熊之十字弓"
-				},
-				"armor": {
-					"feline": {
-						"standard": "猫之甲胄",
-						"enhanced": "强化 猫之甲胄",
-						"superior": "高等 猫之甲胄",
-						"mastercrafted": "师匠 猫之甲胄"
-					},
-					"griffin": {
-						"standard": "狮鹫兽甲胄",
-						"enhanced": "强化 狮鹫兽甲胄",
-						"superior": "高等 狮鹫兽甲胄",
-						"mastercrafted": "师匠 狮鹫兽甲胄"
-					},
-					"ursine": {
-						"standard": "熊之甲胄",
-						"enhanced": "强化 熊之甲胄",
-						"superior": "高等 熊之甲胄",
-						"mastercrafted": "师匠 熊之甲胄"
-					},
-					"wolven": {
-						"standard": "狼之甲胄",
-						"enhanced": "强化 狼之甲胄",
-						"superior": "高等 狼之甲胄",
-						"mastercrafted": "师匠 狼之甲胄"
-					}
-				},
-				"boots": {
-					"feline": {
-						"standard": "猫之靴子",
-						"enhanced": "强化 猫之靴子",
-						"superior": "高等 猫之靴子",
-						"mastercrafted": "高等 猫之靴子"
-					},
-					"griffin": {
-						"standard": "狮鹫兽靴子",
-						"enhanced": "强化 狮鹫兽靴子",
-						"superior": "高等 狮鹫兽靴子",
-						"mastercrafted": "师匠 狮鹫兽靴子"
-					},
-					"ursine": {
-						"standard": "熊之靴子",
-						"enhanced": "强化 熊之靴子",
-						"superior": "高等 熊之靴子",
-						"mastercrafted": "师匠 熊之靴子"
-					},
-					"wolven": {
-						"standard": "狼之靴子",
-						"enhanced": "强化 狼之靴子",
-						"superior": "高等 狼之靴子",
-						"mastercrafted": "师匠 狼之靴子"
-					}
-				},
-				"gauntlets": {
-					"feline": {
-						"standard": "猫之手套",
-						"enhanced": "强化 猫之手套",
-						"superior": "高等 猫之手套",
-						"mastercrafted": "师匠 猫之手套"
-					},
-					"griffin": {
-						"standard": "狮鹫兽手套",
-						"enhanced": "强化 狮鹫兽手套",
-						"superior": "高等 狮鹫兽手套",
-						"mastercrafted": "师匠 狮鹫兽手套"
-					},
-					"ursine": {
-						"standard": "熊之手套",
-						"enhanced": "强化 熊之手套",
-						"superior": "高等 熊之手套",
-						"mastercrafted": "师匠 熊之手套"
-					},
-					"wolven": {
-						"standard": "狼之手套",
-						"enhanced": "强化 狼之手套",
-						"superior": "高等 狼之手套",
-						"mastercrafted": "师匠 狼之手套"
-					}
-				},
-				"trousers": {
-					"feline": {
-						"standard": "猫之裤子",
-						"enhanced": "强化 猫之裤子",
-						"superior": "高等 猫之裤子",
-						"mastercrafted": "师匠 猫之裤子"
-					},
-					"griffin": {
-						"standard": "狮鹫兽裤子",
-						"enhanced": "强化 狮鹫兽裤子",
-						"superior": "高等 狮鹫兽裤子",
-						"mastercrafted": "师匠 狮鹫兽裤子"
-					},
-					"ursine": {
-						"standard": "熊之裤子",
-						"enhanced": "强化 熊之裤子",
-						"superior": "高等 熊之裤子",
-						"mastercrafted": "师匠 熊之裤子"
-					},
-					"wolven": {
-						"standard": "狼之裤子",
-						"enhanced": "强化 狼之裤子",
-						"superior": "高等 狼之裤子",
-						"mastercrafted": "师匠 狼之裤子"
-					}
-				}
-			}
-		}
-	},
-	"pop": {
-		"label": "魔力之所",
-		"label*": "魔力之所*",
-		"desc": "从魔力之所吸收能量可以得到一段时间的法印强化。所有魔力之所在第一次吸取能量时，能够得到1能力点数",
-		"popup": "魔力之所 - __sign__"
-	},
-	"smugglers": {
-		"label": "走私品",
-		"desc": "走私品藏在这里。 "
-	},
-	"spoils": {
-		"label": "战掠品",
-		"desc": "在这里寻找战斗或零星冲突后留下的战利品 __monster__"
-	},
-	"signs": {
-		"aard": "阿尔德",
-		"axii": "亚克席",
-		"igni": "伊格尼",
-		"quen": "昆恩",
-		"yrden": "亚登"
-	},
-	"vineyardinfestation": {
-		"label": "葡萄园虫害",
-		"desc": "葡萄园出没的怪物。"
+		"desc": "由于怪物或强盗攻击被抛弃的地方。一旦危险消除，它将再次充满生机",
+		"label": "废弃地点"
 	},
 	"alchemy": {
 		"desc": "这里你可买到炼金配方。",
@@ -527,8 +10,24 @@
 	"armourer": {
 		"desc": "你可以在此打造护甲、修理受损装备、把装备拆成零件或把升级元素从栏位上移除。"
 	},
+	"armourerstable": {
+		"desc": "护甲加工桌可以在有限的时间内增加你装备的护甲值",
+		"label": "护甲加工桌"
+	},
+	"banditcamp": {
+		"desc": "一群危险的强盗在这里扎营。 ",
+		"label": "强盗营地"
+	},
+	"barber": {
+		"desc": "你可以在这刮胡子或改变发型。 ",
+		"label": "理发师"
+	},
 	"blacksmith": {
 		"desc": "你可以在此打造武器，修理受损装备，拆分武器零件，或把升级元素从栏位上移除。"
+	},
+	"boat": {
+		"desc": "你可以使用小船在水中移动",
+		"label": "船"
 	},
 	"brothel": {
 		"desc": "你可在这里召妓。"
@@ -609,11 +108,74 @@
 			"wood": "林地野兽"
 		}
 	},
+	"controls": {
+		"addNoteButton": "添加备注",
+		"backupDataButton": "备份数据",
+		"backupHtmlFail": "很抱歉。 恢复无法完成。 此浏览器不支持 HTML5 文件 API。",
+		"backupLoad": "恢复您的设置:",
+		"backupLoadFail": "恢复失败，请仔细检查您的文件",
+		"backupLoadSuccess": "数据恢复完成！",
+		"backupSave": "这将下载所有巫师3地图设置的备份副本。 该文件将被保存为: __fileName__ 您确定吗?",
+		"cancelNoteButton": "取消备注",
+		"centerMarkerButton": "使高亮标记居中",
+		"credits": "开发人员",
+		"donation": "捐赠一杯咖啡…",
+		"exitFullscreenButton": "退出全屏",
+		"helpFeatures": "功能与帮助",
+		"hide": "隐藏全部",
+		"hideCounts": "隐藏计数",
+		"hideMonsters": "隐藏怪物",
+		"resetInvisConfirm": "这将重置所有隐藏/跟踪标记为其默认状态 (可见)，您确认吗?",
+		"resetInvisible": "重置隐藏",
+		"restoreDataButton": "恢复数据",
+		"searchButton": "搜索...",
+		"show": "显示全部",
+		"showCounts": "显示计数",
+		"showMonsters": "显示怪物",
+		"viewFullscreenButton": "全屏视图",
+		"zoomInButton": "放大",
+		"zoomOutButton": "缩小"
+	},
 	"craftlevels": {
 		"Amateur": "业余",
 		"Grandmaster": "超凡",
 		"Journeyman": "老手",
 		"Master": "大师"
+	},
+	"credits": {
+		"botAssets": "巫师 3、 logo、 图标、 地图&amp; 和文本均为 __cdpr__ 所有",
+		"botCreated": "由 __untamed0__创作，并获__license__ 许可",
+		"botHelp": "来自 __mcarver__ 与其他 __contributors__ 的帮助。感谢 __designGears__ & __hhrhhr__ 地图 & 资产提取。Javascript 库使用，__jsCredits__ 的完整列表。",
+		"popupAssets": "巫师 3 资产",
+		"popupbotHelp1": "__mcarver__（主要贡献者）- 标记计数、哈希永久连结改进、备份/恢复设定、大量修复等。",
+		"popupbotHelp2": "__ankri__ - 能够在右键或双击时隐藏标记",
+		"popupbotHelp3": "__ITroxxCH__ - 翻译/i18n 实现",
+		"popupbotHelp4": "__msmorgan__ - Javascript 和地图数据结构改进",
+		"popupbotHelp5": "__DesignGears__ & __hhrhhr__- 地图和资产提取",
+		"popupbotHelp6": "感谢以下人员为改进地图数据所做的贡献：",
+		"popupbotHelp7": "__lordfiSh__ - Toussaint 地图标记",
+		"popupCreated": "由 __untamed0__ 创建并由 __BaHTsIzBEdEvi__ 增强，贡献来自：",
+		"popupcrowdin": "特别感谢 __crowdin__ 让我们使用他们出色的翻译编辑器。",
+		"popupJava": "使用Javascript程式库",
+		"popupRED": "巫师 3、标志、图示、地图和文字是 __RED__ 的财产，未经许可使用。根据他们的 __Agreement__ 第 9.4 节，允许非商业用途。",
+		"popuptranslations": "翻译人员",
+		"popuptranslations1": "俄文 - __Arkwulf__（借助旧的crowdin翻译）",
+		"popuptranslations2": "土耳其文 - __BaHTsIzBEdEvi__",
+		"popuptranslations3": "捷克文 - __MikeCZ__ 和 __Lord Mazour__",
+		"popuptranslations4": "中国传统的 - __YheonYeung__",
+		"popuptranslations5": "抛光 - __toffi3__, __Umber91310486__ 和 __Mochal__",
+		"version": "版本："
+	},
+	"entrance": {
+		"desc": {
+			"entry": "进入洞穴或废墟。",
+			"exit": "它不会出现在游戏地图上。"
+		},
+		"label": "入口"
+	},
+	"entranceunderwatercave": {
+		"desc": "水下洞穴的入口",
+		"label": "水下洞穴"
 	},
 	"event": {
 		"desc": {
@@ -746,6 +308,14 @@
 			"yustianna": "尤斯蒂安娜心烦意乱"
 		}
 	},
+	"grindstone": {
+		"desc": "在这里研磨过的剑会造成更多伤害",
+		"label": "研磨石"
+	},
+	"guarded": {
+		"desc": "有个强大的怪物__monster__在此处看守宝藏",
+		"label": "怪物看守的宝藏"
+	},
 	"gwent": {
 		"desc": {
 			"player": " "
@@ -778,11 +348,31 @@
 			"zoltan": "卓尔坦"
 		}
 	},
+	"harbor": {
+		"desc": "你可以在此找到船，船也会在此刷新",
+		"label": "港口"
+	},
+	"herbalist": {
+		"desc": "在这里你可以买到炼金材料",
+		"label": "草药商"
+	},
+	"hidden": {
+		"desc": "被藏起来的宝藏",
+		"guarded": "被藏起来的宝藏 ( 被__monster__守护)",
+		"label": "隐藏的宝藏"
+	},
 	"hollow": {
 		"desc": "在空洞内可以找到一些黄金。 "
 	},
 	"honeycomb": {
 		"desc": "这里的蜂窝可以通过燃烧收集，然后卖给富米拉来赚钱。 "
+	},
+	"home": {
+		"offline": "离线地图",
+		"online": "线上地图",
+		"resultsFound": "搜索结果",
+		"searchPlaceholder": "请输入要搜索的条目…",
+		"tagline": "巫师 3 非官方交互式地图 <br>（目前正在开发）"
 	},
 	"mainquests": {
 		"desc": {
@@ -950,6 +540,412 @@
 			"wine": "美酒是神圣的"
 		}
 	},
+	"maps": {
+		"fables": "千言万语",
+		"fables_main": "千言万语 <img src=files/images/logo/dlp1_zh.png />",
+		"gaunter": "刚特的世界",
+		"gaunter_main": "刚特的世界 <img src=files/images/logo/dlp2_zh.png />",
+		"isle_mists": "迷雾之岛",
+		"kaer_morhen": "凯尔莫罕",
+		"skellige": "史凯利杰群岛",
+		"toussaint": "陶森特",
+		"toussaint_main": "陶森特 <img src=files/images/logo/dlp1_zh.png />",
+		"velen": "威伦 & 诺维格瑞",
+		"velen_main": "威伦 & 诺维格瑞 <img src=files/images/logo/dlp2_zh.png />",
+		"white_orchard": "白果园"
+	},
+	"misc": {
+		"active": "它会在“__quest__”任务后激活。",
+		"contribute": "正在施工中! 欢迎提供帮助: __link__",
+		"dactive": "它只会在“__quest__”任务期间激活。",
+		"disappears": "“__quest__”任务后无法访问。",
+		"discuss": "有反馈和建议? 请在此处探讨 __link__",
+		"entrance1": "你可以在这里 __x1__ 进入地下 __end__。",
+		"entrance2": "您可以在此处 __end__ 进入地下 __x1__ 或在此处 __end__ 进入 __x2__。",
+		"entrance3": "你可以在 进入地下 __x1__ 这里 __end__ 或 __x2__ 这里 __end__ 或 __x3__ 这里 __end__。",
+		"entrance4": "你可以在 进入地下 __x1__ 这里 __end__ 或 __x2__ 这里 __end__ 或 __x3__ 这里 __end__ 或 __x4__ 这里 __end__。",
+		"helpTranslate": "想要帮助或改善翻译吗?",
+		"liberated": "解放该地区后出现。",
+		"mdisappears": "完成“__quest__”任务后可能无法访问。",
+		"portraitWarn": "提示：推荐以横屏模式查看地图，点击关闭此消息",
+		"treasure": "寻宝",
+		"underground": "地下",
+		"logo": "<img src='files/images/logo/logo_zh.png' class='center'>",
+		"logo_min": "<img src='../files/images/logo/logo_zh_min.png' class='center'>",
+		"loveInterestDesc": "在这遇见情人",
+		"nsfwConfirm": "这将使“妓院”更改为“爱恋对象”，您确定吗？",
+		"nsfwUndo": "您确定想要返回吗？"
+	},
+	"monsterden": {
+		"desc": "怪物出没的地点。__monster__附近人家的心头大患",
+		"label": "怪物巢穴"
+	},
+	"monsternest": {
+		"desc": "可以用蜂窝或舞动之心摧毁怪物巢穴(__monster__)",
+		"label": "怪物巢"
+	},
+	"notes": {
+		"deleteNote": "删除备注",
+		"enterLabel": "输入地图标签...",
+		"enterText": "输入备注文本...",
+		"enterTitle": "输入备注标题...",
+		"label": "标签：",
+		"note": "备注：",
+		"saveNote": "保存备注",
+		"title": "标题："
+	},
+	"notice": {
+		"desc": "这里张贴了怪物委托和与当地居民相关的公告",
+		"label": "公告板"
+	},
+	"pid": {
+		"afterrescue": "得救后，人去__x1__这里__end__。",
+		"desc": "这里有一位或一群人需要帮助（__monster__）",
+		"rescue": "需要从__x1__这里__end__保存。",
+		"label": "有困扰的人"
+	},
+	"poi": {
+		"desc": {
+			"easter": "它是游戏的复活节彩蛋之一。",
+			"lootableBattlefield": "可搜刮此战场以轻易获得早期游戏资金。",
+			"witcherGear": {
+				"silversword": {
+					"feline": {
+						"standard": "在埃泰叶尔里的一堵可被破坏的墙后",
+						"enhanced": "建筑的上层-由奥森弗特门侧的梯子进入",
+						"superior": "可打碎的石笋后，位于洞穴右侧的石架子上",
+						"mastercrafted": ""
+					},
+					"griffin": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"ursine": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"wolven": {
+						"standard": "",
+						"enhanced": "进入洞穴中",
+						"superior": "",
+						"mastercrafted": "你会在秘密宝藏的附近找到"
+					}
+				},
+				"steelsword": {
+					"feline": {
+						"standard": "Drahim堡里，下楼梯",
+						"enhanced": "在洞穴内左侧一堵小石墙的后面",
+						"superior": "在洞穴末端，木质平台上的一个箱子里。",
+						"mastercrafted": ""
+					},
+					"griffin": {
+						"standard": "在怪兽巢穴的附近",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"ursine": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": "在未标记的洞穴中一根石柱的后面。"
+					},
+					"wolven": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": "你会在沉船的货舱中找到"
+					}
+				},
+				"crossbow": {
+					"feline": "",
+					"ursine": ""
+				},
+				"armor": {
+					"feline": {
+						"standard": "",
+						"enhanced": "在艾拉玛的废弃庄园的顶部",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"griffin": {
+						"standard": "在屠龙洞窟里",
+						"enhanced": "在白鹰堡的巨魔的附近",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"ursine": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"wolven": {
+						"standard": "",
+						"enhanced": "潜入水中",
+						"superior": "",
+						"mastercrafted": "箱子在井里"
+					}
+				},
+				"boots": {
+					"feline": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"griffin": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"ursine": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"wolven": {
+						"standard": "",
+						"enhanced": "进入洞穴中",
+						"superior": "",
+						"mastercrafted": ""
+					}
+				},
+				"gauntlets": {
+					"feline": {
+						"standard": "",
+						"enhanced": "在怪老头的采石场的一条矿井中",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"griffin": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"ursine": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"wolven": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					}
+				},
+				"trousers": {
+					"feline": {
+						"standard": "",
+						"enhanced": "在烧焦的废墟里面",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"griffin": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"ursine": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					},
+					"wolven": {
+						"standard": "",
+						"enhanced": "",
+						"superior": "",
+						"mastercrafted": ""
+					}
+				}
+			}
+		},
+		"label": {
+			"lootableBattlefield": "可供搜刮的战场",
+			"witcherGear": "巫师升级装备"
+		},
+		"popup": {
+			"witcherGear": {
+				"silversword": {
+					"feline": {
+						"standard": "猫之银剑",
+						"enhanced": "强化 猫之银剑",
+						"superior": "高等 猫之银剑",
+						"mastercrafted": "师匠 猫之银剑"
+					},
+					"griffin": {
+						"standard": "狮鹫银剑",
+						"enhanced": "强化狮鹫银剑",
+						"superior": "高等 狮鹫银剑",
+						"mastercrafted": "师匠 狮鹫银剑"
+					},
+					"ursine": {
+						"standard": "熊之银剑",
+						"enhanced": "强化 熊之银剑",
+						"superior": "高等 熊之银剑",
+						"mastercrafted": "师匠 熊之银剑"
+					},
+					"wolven": {
+						"standard": "狼之银剑",
+						"enhanced": "强化 狼之银剑",
+						"superior": "高等 狼之银剑",
+						"mastercrafted": "师匠 狼之银剑"
+					}
+				},
+				"steelsword": {
+					"feline": {
+						"standard": "猫之钢剑",
+						"enhanced": "强化 猫之钢剑",
+						"superior": "高等 猫之钢剑",
+						"mastercrafted": "师匠 猫之钢剑"
+					},
+					"griffin": {
+						"standard": "狮鹫兽钢剑",
+						"enhanced": "强化 狮鹫兽钢剑",
+						"superior": "高等 狮鹫兽钢剑",
+						"mastercrafted": "师匠 狮鹫兽钢剑"
+					},
+					"ursine": {
+						"standard": "熊之钢剑",
+						"enhanced": "强化 熊之钢剑",
+						"superior": "高等 熊之钢剑",
+						"mastercrafted": "师匠 熊之钢剑"
+					},
+					"wolven": {
+						"standard": "狼之钢剑",
+						"enhanced": "强化 狼之钢剑",
+						"superior": "高等 狼之钢剑",
+						"mastercrafted": "师匠 狼之钢剑"
+					}
+				},
+				"crossbow": {
+					"feline": "猫之十字弓",
+					"ursine": "熊之十字弓"
+				},
+				"armor": {
+					"feline": {
+						"standard": "猫之甲胄",
+						"enhanced": "强化 猫之甲胄",
+						"superior": "高等 猫之甲胄",
+						"mastercrafted": "师匠 猫之甲胄"
+					},
+					"griffin": {
+						"standard": "狮鹫兽甲胄",
+						"enhanced": "强化 狮鹫兽甲胄",
+						"superior": "高等 狮鹫兽甲胄",
+						"mastercrafted": "师匠 狮鹫兽甲胄"
+					},
+					"ursine": {
+						"standard": "熊之甲胄",
+						"enhanced": "强化 熊之甲胄",
+						"superior": "高等 熊之甲胄",
+						"mastercrafted": "师匠 熊之甲胄"
+					},
+					"wolven": {
+						"standard": "狼之甲胄",
+						"enhanced": "强化 狼之甲胄",
+						"superior": "高等 狼之甲胄",
+						"mastercrafted": "师匠 狼之甲胄"
+					}
+				},
+				"boots": {
+					"feline": {
+						"standard": "猫之靴子",
+						"enhanced": "强化 猫之靴子",
+						"superior": "高等 猫之靴子",
+						"mastercrafted": "高等 猫之靴子"
+					},
+					"griffin": {
+						"standard": "狮鹫兽靴子",
+						"enhanced": "强化 狮鹫兽靴子",
+						"superior": "高等 狮鹫兽靴子",
+						"mastercrafted": "师匠 狮鹫兽靴子"
+					},
+					"ursine": {
+						"standard": "熊之靴子",
+						"enhanced": "强化 熊之靴子",
+						"superior": "高等 熊之靴子",
+						"mastercrafted": "师匠 熊之靴子"
+					},
+					"wolven": {
+						"standard": "狼之靴子",
+						"enhanced": "强化 狼之靴子",
+						"superior": "高等 狼之靴子",
+						"mastercrafted": "师匠 狼之靴子"
+					}
+				},
+				"gauntlets": {
+					"feline": {
+						"standard": "猫之手套",
+						"enhanced": "强化 猫之手套",
+						"superior": "高等 猫之手套",
+						"mastercrafted": "师匠 猫之手套"
+					},
+					"griffin": {
+						"standard": "狮鹫兽手套",
+						"enhanced": "强化 狮鹫兽手套",
+						"superior": "高等 狮鹫兽手套",
+						"mastercrafted": "师匠 狮鹫兽手套"
+					},
+					"ursine": {
+						"standard": "熊之手套",
+						"enhanced": "强化 熊之手套",
+						"superior": "高等 熊之手套",
+						"mastercrafted": "师匠 熊之手套"
+					},
+					"wolven": {
+						"standard": "狼之手套",
+						"enhanced": "强化 狼之手套",
+						"superior": "高等 狼之手套",
+						"mastercrafted": "师匠 狼之手套"
+					}
+				},
+				"trousers": {
+					"feline": {
+						"standard": "猫之裤子",
+						"enhanced": "强化 猫之裤子",
+						"superior": "高等 猫之裤子",
+						"mastercrafted": "师匠 猫之裤子"
+					},
+					"griffin": {
+						"standard": "狮鹫兽裤子",
+						"enhanced": "强化 狮鹫兽裤子",
+						"superior": "高等 狮鹫兽裤子",
+						"mastercrafted": "师匠 狮鹫兽裤子"
+					},
+					"ursine": {
+						"standard": "熊之裤子",
+						"enhanced": "强化 熊之裤子",
+						"superior": "高等 熊之裤子",
+						"mastercrafted": "师匠 熊之裤子"
+					},
+					"wolven": {
+						"standard": "狼之裤子",
+						"enhanced": "强化 狼之裤子",
+						"superior": "高等 狼之裤子",
+						"mastercrafted": "师匠 狼之裤子"
+					}
+				}
+			}
+		}
+	},
+	"pop": {
+		"desc": "从魔力之所吸收能量可以得到一段时间的法印强化。所有魔力之所在第一次吸取能量时，能够得到1能力点数",
+		"popup": "魔力之所 - __sign__",
+		"label": "魔力之所",
+		"label*": "魔力之所*"
+	},
 	"scavenger": {
 		"dia": "图表:",
 		"gear": "装备",
@@ -995,6 +991,50 @@
 			"bookMerchant": "书本商人",
 			"tailor": "服装商人"
 		}
+	},
+	"sidebar": {
+		"abandoned": "废弃地点",
+		"alchemy": "炼金术士",
+		"armourer": "护甲师",
+		"armourerstable": "护甲加工桌",
+		"banditcamp": "强盗营地",
+		"barber": "理发师",
+		"blacksmith": "铁匠",
+		"boat": "船",
+		"brothel": "妓院",
+		"contracts": "合约",
+		"entrance": "入口",
+		"event": "事件",
+		"grindstone": "磨刀石",
+		"guarded": "怪物看守的宝藏",
+		"gwent": "昆特牌玩家",
+		"gwentquest": "昆特牌探索",
+		"hansebase": "行会基地",
+		"harbor": "港口",
+		"herbalist": "草药商",
+		"hidden": "隐藏的宝藏",
+		"hollow": "空心宝藏",
+		"honeycomb": "蜂窝",
+		"innkeep": "酒馆",
+		"kid": "在窘境中的骑士",
+		"monsterden": "怪物巢穴",
+		"monsternest": "怪物巢穴",
+		"notice": "告示板",
+		"pid": "有困扰的人",
+		"poi": "特殊地点",
+		"pop": "魔力之所",
+		"returnToMapSelection": "返回地图选择页",
+		"scavenger": "拾荒者",
+		"shopkeeper": "商店老板",
+		"sidequests": "支线任务",
+		"signalfire": "烽火",
+		"signpost": "路标",
+		"smugglers": "走私品",
+		"spoils": "战利品",
+		"treasure": "宝藏",
+		"vineyardinfestation": "葡萄园虫害",
+		"loveInterest": "情人",
+		"vintnercontract": "葡萄酒商任务"
 	},
 	"sidequest": {
 		"bigfeet": "前人事迹",
@@ -1558,9 +1598,28 @@
 			}
 		}
 	},
+	"signs": {
+		"aard": "阿尔德",
+		"axii": "亚克席",
+		"igni": "伊格尼",
+		"quen": "昆恩",
+		"yrden": "亚登"
+	},
+	"smugglers": {
+		"desc": "走私品藏在这里。 ",
+		"label": "走私品"
+	},
+	"spoils": {
+		"desc": "在这里寻找战斗或零星冲突后留下的战利品 __monster__",
+		"label": "战掠品"
+	},
 	"treasure": {
 		"desc": " ",
 		"label": "寻宝",
 		"watertreasure": "水下宝藏"
+	},
+	"vineyardinfestation": {
+		"desc": "葡萄园出没的怪物。",
+		"label": "葡萄园虫害"
 	}
 }
