@@ -77,3 +77,35 @@ This software uses the following libraries developed by third parties, and are l
 - Leaflet (BSD2)
 - Fuse (APACHE 2.0)
 - Font Awesome (MIT)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server with HMR
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Offline Usage
+
+After building the project, serve the `dist/` directory with any static file server:
+
+```bash
+# Using npx (no install required)
+npx serve dist
+
+# Using Python
+python -m http.server -d dist 8000
+
+# Or simply open dist/ with any local web server
+```
+
+All features work fully offline — no internet connection required once the map tiles are cached by the browser.
