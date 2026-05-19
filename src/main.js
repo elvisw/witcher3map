@@ -22,7 +22,7 @@ var mapdata = [];
 function loadAllMapData() {
   var regions = Object.values(regionToMapdata);
   var promises = regions.map(function (name) {
-    return import("./data/mapdata-" + name + ".js").then(function (mod) {
+    return import(`./data/mapdata-${name}.js`).then(function (mod) {
       return { name: name, module: mod };
     });
   });
