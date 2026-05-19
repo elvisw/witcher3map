@@ -29,3 +29,6 @@ logs/
 
 # Claude Code (local settings)
 .claude/
+
+.dev.vars*
+!.dev.vars.example
