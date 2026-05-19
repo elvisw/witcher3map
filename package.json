@@ -1,8 +1,8 @@
 {
   "name": "witcher3map",
   "version": "1.0.0",
-  "description": "Desctiption\r --------------------------------------\r It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).\r I have released version 3.5 as an intermediate version upon popular demand. I'll post updates as development progresses.",
-  "main": "index.js",
+  "private": true,
+  "description": "Witcher 3 Interactive Maps - enhanced version of untamed0's work",
   "directories": {
     "doc": "docs"
   },
