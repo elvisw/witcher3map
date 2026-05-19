@@ -14,15 +14,16 @@ jQuery.cachedScript = function (url, options) {
 if (localStorage.lang == null) {
   var lang = window.navigator.userLanguage || window.navigator.language;
   if (lang.toLowerCase().startsWith('zh')) {
-    lang = lang.toLowerCase().replace('_', '-');
-    if (lang === 'zh-hk' || lang === 'zh-mo') lang = 'zh-tw';
-    if (lang === 'zh-sg') lang = 'zh-cn';
+    var lower = lang.toLowerCase().replace('_', '-');
+    if (lower === 'zh-cn' || lower === 'zh-sg' || lower === 'zh-hans') {
+      lang = 'zh-cn';
+    } else {
+      lang = 'zh';
+    }
   } else {
     lang = lang.substring(0, 2);
   }
   localStorage.lang = lang;
-} else if (localStorage.lang === 'zh') {
-  localStorage.lang = 'zh-tw';
 }
 
 window.i18noptions = {
@@ -33,7 +34,7 @@ window.i18noptions = {
   fallbackLng: "en",
   resGetPath: "/files/locales/__lng__/__ns__.json",
   useDataAttrOptions: true,
-  lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh-tw", "zh-cn"]
+  lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh", "zh-cn"]
 };
 
 var languageOptions = [
@@ -42,7 +43,7 @@ var languageOptions = [
   { text: "Polski", value: "pl", selected: "pl" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/pl.png" },
   { text: "Русский", value: "ru", selected: "ru" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/ru.png" },
   { text: "Türkçe", value: "tr", selected: "tr" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/tr.png" },
-  { text: "繁體中文", value: "zh-tw", selected: "zh-tw" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/zh.png" },
+  { text: "繁體中文", value: "zh", selected: "zh" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/zh.png" },
   { text: "简体中文", value: "zh-cn", selected: "zh-cn" == localStorage.lang, description: " ", imageSrc: "/files/images/flags/cn.png" },
 ];
 
