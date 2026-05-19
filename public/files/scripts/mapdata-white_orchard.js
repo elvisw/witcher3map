@@ -1,11 +1,13 @@
-window.map_path  = 'white_orchard';
-window.map_sWest = L.latLng(-85,-180);
-window.map_nEast = L.latLng(0,45);
-window.map_center = [-65.000,-65.000];
-window.map_minZoom = 2;
-window.map_mZoom = 5;
-window.map_Zoom = 3;
-window.mapdata_white_orchard = {
+const $ = window.$;
+const L = window.L;
+export const map_path  = 'white_orchard';
+export const map_sWest = L.latLng(-85,-180);
+export const map_nEast = L.latLng(0,45);
+export const map_center = [-65.000,-65.000];
+export const map_minZoom = 2;
+export const map_mZoom = 5;
+export const map_Zoom = 3;
+export default {
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [{
 		coords: [[-77.786,-48.604]],

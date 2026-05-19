@@ -1,11 +1,13 @@
-window.map_path  = 'gaunter';
-window.map_sWest = L.latLng(0,0);
-window.map_nEast = L.latLng(320,195);
-window.map_center = [0.000,0.000];
-window.map_minZoom = 2;
-window.map_mZoom = 3;
-window.map_Zoom = 1;
-window.mapdata_gaunter = {
+const $ = window.$;
+const L = window.L;
+export const map_path  = 'gaunter';
+export const map_sWest = L.latLng(0,0);
+export const map_nEast = L.latLng(320,195);
+export const map_center = [0.000,0.000];
+export const map_minZoom = 2;
+export const map_mZoom = 3;
+export const map_Zoom = 1;
+export default {
 	
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [],

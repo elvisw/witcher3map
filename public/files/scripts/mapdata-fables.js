@@ -1,11 +1,13 @@
-window.map_path  = 'fables';
-window.map_sWest = L.latLng(-80,-180);
-window.map_nEast = L.latLng(60,120);
-window.map_center = [-50.000,-50.000];
-window.map_minZoom = 3;
-window.map_mZoom = 4;
-window.map_Zoom = 3;
-window.mapdata_fables = {
+const $ = window.$;
+const L = window.L;
+export const map_path  = 'fables';
+export const map_sWest = L.latLng(-80,-180);
+export const map_nEast = L.latLng(60,120);
+export const map_center = [-50.000,-50.000];
+export const map_minZoom = 3;
+export const map_mZoom = 4;
+export const map_Zoom = 3;
+export default {
 	
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [],

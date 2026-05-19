@@ -1,11 +1,13 @@
-window.map_path  = 'toussaint';
-window.map_sWest = L.latLng(0,0);
-window.map_nEast = L.latLng(144,144);
-window.map_center = [72.000,77.000];
-window.map_minZoom = 2;
-window.map_mZoom = 6;
-window.map_Zoom = 3;
-window.mapdata_toussaint = {
+const $ = window.$;
+const L = window.L;
+export const map_path  = 'toussaint';
+export const map_sWest = L.latLng(0,0);
+export const map_nEast = L.latLng(144,144);
+export const map_center = [72.000,77.000];
+export const map_minZoom = 2;
+export const map_mZoom = 6;
+export const map_Zoom = 3;
+export default {
 
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [{

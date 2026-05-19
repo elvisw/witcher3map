@@ -1,11 +1,13 @@
-window.map_path  = 'kaer_morhen';
-window.map_sWest = L.latLng(0,0);
-window.map_nEast = L.latLng(160,128);
-window.map_center = [85.000,70.000];
-window.map_minZoom = 2;
-window.map_mZoom = 6;
-window.map_Zoom = 3;
-window.mapdata_kaer_morhen = {
+const $ = window.$;
+const L = window.L;
+export const map_path  = 'kaer_morhen';
+export const map_sWest = L.latLng(0,0);
+export const map_nEast = L.latLng(160,128);
+export const map_center = [85.000,70.000];
+export const map_minZoom = 2;
+export const map_mZoom = 6;
+export const map_Zoom = 3;
+export default {
 
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [],

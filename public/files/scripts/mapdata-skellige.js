@@ -1,11 +1,13 @@
-window.map_path  = 'skellige';
-window.map_sWest = L.latLng(-85.050,-180);
-window.map_nEast = L.latLng(79.300,135);
-window.map_center = [-30.000,-23.000];
-window.map_minZoom = 2;
-window.map_mZoom = 6;
-window.map_Zoom = 2;
-window.mapdata_skellige = {
+const $ = window.$;
+const L = window.L;
+export const map_path  = 'skellige';
+export const map_sWest = L.latLng(-85.050,-180);
+export const map_nEast = L.latLng(79.300,135);
+export const map_center = [-30.000,-23.000];
+export const map_minZoom = 2;
+export const map_mZoom = 6;
+export const map_Zoom = 2;
+export default {
 
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [{
