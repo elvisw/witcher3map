@@ -34,6 +34,7 @@ window.i18noptions = {
   fallbackLng: "en",
   resGetPath: "/files/locales/__lng__/__ns__.json",
   useDataAttrOptions: true,
+  load: "current",
   lngWhitelist: ["en", "cz", "pl", "ru", "tr", "zh", "zh-cn"]
 };
 
