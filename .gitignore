@@ -1,2 +1,31 @@
+# dependencies
 node_modules/
+
+# build output
 dist/
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+logs/
+
+# Cloudflare
+.wrangler/
+
+# Claude Code (local settings)
+.claude/
